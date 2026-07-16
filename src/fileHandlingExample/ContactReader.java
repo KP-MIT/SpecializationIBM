@@ -55,10 +55,14 @@ public class ContactReader {
         } catch (FileNotFoundException e) {
             // Step 10: Handle exceptions appropriately
             // Display a user-friendly error message
+            System.out.println("File not found: "+e.getMessage());
+            System.out.println("Try again after checking the name.");
 
         } catch (IOException e) {
+            System.out.println("Error reading file: "+e.getMessage());
 
         } catch (Exception e) {
+            System.out.println("Unexpected error occurred: "+e.getMessage());
 
         } finally {
             scanner.close();
