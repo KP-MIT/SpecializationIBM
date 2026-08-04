@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca506abf-43ea-4a97-b7f9-1daff43149d5" name="Changes" comment="Exceptions handled - ContactReader">
+      <change afterPath="$PROJECT_DIR$/src/collectionsExample/PhoneBookHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileHandlingExample/contacts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_07_2026_10_09_am__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_07_2026_10_09_am__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +41,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LibraryManagement">
+  <component name="RunManager" selected="Application.PhoneBookHashMap">
+    <configuration name="ContactReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fileHandlingExample.ContactReader" />
+      <module name="SpecializationIBM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fileHandlingExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LibraryManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collectionsExample.LibraryManagement" />
       <module name="SpecializationIBM" />
@@ -64,8 +81,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PhoneBookHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectionsExample.PhoneBookHashMap" />
+      <module name="SpecializationIBM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collectionsExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhoneBookHashMap" />
+        <item itemvalue="Application.ContactReader" />
         <item itemvalue="Application.LibraryManagement" />
         <item itemvalue="Application.MusicShop" />
       </list>
@@ -103,12 +135,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
