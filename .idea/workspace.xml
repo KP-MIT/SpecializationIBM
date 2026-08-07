@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca506abf-43ea-4a97-b7f9-1daff43149d5" name="Changes" comment="Exceptions handled - ContactReader">
-      <change afterPath="$PROJECT_DIR$/src/collectionsExample/PhoneBookHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileHandlingExample/contacts.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_07_2026_10_09_am__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_07_2026_10_09_am__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ca506abf-43ea-4a97-b7f9-1daff43149d5" name="Changes" comment="Phonebook hashmap example completed.">
+      <change afterPath="$PROJECT_DIR$/src/fileHandlingExample/FileSystemManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +37,22 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PhoneBookHashMap">
+  <component name="RunManager" selected="Application.FileSystemManager">
     <configuration name="ContactReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fileHandlingExample.ContactReader" />
+      <module name="SpecializationIBM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fileHandlingExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileSystemManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fileHandlingExample.FileSystemManager" />
       <module name="SpecializationIBM" />
       <extension name="coverage">
         <pattern>
@@ -96,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileSystemManager" />
         <item itemvalue="Application.PhoneBookHashMap" />
         <item itemvalue="Application.ContactReader" />
         <item itemvalue="Application.LibraryManagement" />
@@ -126,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1784160271881</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Phonebook hashmap example completed.">
+      <created>1785886954357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1785886954357</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,7 +162,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -175,6 +192,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit - IBM specialization" />
     <MESSAGE value="Exceptions handled - ContactReader" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exceptions handled - ContactReader" />
+    <MESSAGE value="Phonebook hashmap example completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Phonebook hashmap example completed." />
   </component>
 </project>
