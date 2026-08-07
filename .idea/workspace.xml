@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca506abf-43ea-4a97-b7f9-1daff43149d5" name="Changes" comment="Phonebook hashmap example completed.">
-      <change afterPath="$PROJECT_DIR$/src/fileHandlingExample/FileSystemManager.java" afterDir="false" />
+    <list default="true" id="ca506abf-43ea-4a97-b7f9-1daff43149d5" name="Changes" comment="File System Manager program completed.">
+      <change afterPath="$PROJECT_DIR$/src/dateTimeExample/DateDiffCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collectionsExample/PhoneBookHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionsExample/PhoneBookHashMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +39,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FileSystemManager">
+  <component name="RunManager" selected="Application.DateDiffCalculator">
     <configuration name="ContactReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fileHandlingExample.ContactReader" />
       <module name="SpecializationIBM" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fileHandlingExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateDiffCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dateTimeExample.DateDiffCalculator" />
+      <module name="SpecializationIBM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dateTimeExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,19 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MusicShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritanceExample.MusicShop" />
-      <module name="SpecializationIBM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inheritanceExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PhoneBookHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collectionsExample.PhoneBookHashMap" />
       <module name="SpecializationIBM" />
@@ -105,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DateDiffCalculator" />
         <item itemvalue="Application.FileSystemManager" />
         <item itemvalue="Application.PhoneBookHashMap" />
         <item itemvalue="Application.ContactReader" />
         <item itemvalue="Application.LibraryManagement" />
-        <item itemvalue="Application.MusicShop" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1785886954357</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="File System Manager program completed.">
+      <created>1786077882009</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1786077882009</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +202,7 @@
     <MESSAGE value="First commit - IBM specialization" />
     <MESSAGE value="Exceptions handled - ContactReader" />
     <MESSAGE value="Phonebook hashmap example completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Phonebook hashmap example completed." />
+    <MESSAGE value="File System Manager program completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="File System Manager program completed." />
   </component>
 </project>
