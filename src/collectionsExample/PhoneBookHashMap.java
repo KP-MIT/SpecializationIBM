@@ -21,8 +21,7 @@ public class PhoneBookHashMap {
     }
 
     public static void main(String s[]) {
-        try {
-            Scanner scanner = new Scanner(System.in);
+        try (Scanner scanner = new Scanner(System.in)) {
             HashMap<String, String> phonebook = new HashMap<>();
 
             while (true) {
