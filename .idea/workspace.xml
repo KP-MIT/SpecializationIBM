@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca506abf-43ea-4a97-b7f9-1daff43149d5" name="Changes" comment="File System Manager program completed.">
-      <change afterPath="$PROJECT_DIR$/src/dateTimeExample/DateDiffCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dateTimeExample/TravelPlanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionsExample/PhoneBookHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionsExample/PhoneBookHashMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DateDiffCalculator">
+  <component name="RunManager" selected="Application.TravelPlanner">
     <configuration name="ContactReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fileHandlingExample.ContactReader" />
       <module name="SpecializationIBM" />
@@ -79,19 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectionsExample.LibraryManagement" />
-      <module name="SpecializationIBM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collectionsExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PhoneBookHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collectionsExample.PhoneBookHashMap" />
       <module name="SpecializationIBM" />
@@ -105,13 +91,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TravelPlanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dateTimeExample.TravelPlanner" />
+      <module name="SpecializationIBM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dateTimeExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TravelPlanner" />
         <item itemvalue="Application.DateDiffCalculator" />
         <item itemvalue="Application.FileSystemManager" />
         <item itemvalue="Application.PhoneBookHashMap" />
         <item itemvalue="Application.ContactReader" />
-        <item itemvalue="Application.LibraryManagement" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +170,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="date_diff" />
                       </list>
                     </value>
                   </entry>
