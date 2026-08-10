@@ -85,11 +85,12 @@ public class MoodTracker {
                                         moodToAdd = new Mood(moodName, inputNotes);
                                     }
                                 } else {
-                                    System.out.println("invalid choice, try again! (y/n) ");
+                                    System.out.println("invalid choice, try again! ");
+                                    continue;
                                 }
                             }
                         }
-                        if (isMoodValid(moodToAdd, moods) && moodToAdd != null) {
+                        if (moodToAdd != null && isMoodValid(moodToAdd, moods)) {
                             moods.add(moodToAdd);
                             System.out.println("Mood successfully added");
                         }
@@ -233,12 +234,17 @@ public class MoodTracker {
                         }
                     }
                     case "w" -> {
+                        boolean written = true;
                         try (PrintWriter writer = new PrintWriter(new FileWriter("Moods.txt"))) {
                             for (Mood mood : moods) {
                                 writer.println(mood + "\n");
                             }
                         } catch (IOException e) {
                             System.out.println("Error writing file: " + e.getMessage());
+                            written = false;
+                        }
+                        if (written){
+                            System.out.println("File written successfully");
                         }
                     }
                     case "exit" -> {
@@ -251,6 +257,8 @@ public class MoodTracker {
                 System.out.println("Invalid date/time format, try again!" + e.getMessage());
             } catch (InvalidMoodException e) {
                 System.out.println(e.getMessage() + " Try again!");
+            } catch (NullPointerException npe){
+                System.out.println("Invalid attempt. Try again!");
             }
         }
         scanner.close();
