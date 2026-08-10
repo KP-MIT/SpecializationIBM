@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca506abf-43ea-4a97-b7f9-1daff43149d5" name="Changes" comment="File System Manager program completed.">
-      <change afterPath="$PROJECT_DIR$/src/dateTimeExample/TravelPlanner.java" afterDir="false" />
+    <list default="true" id="ca506abf-43ea-4a97-b7f9-1daff43149d5" name="Changes" comment="Major Project - Mood Tracker System.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/finalProject/MoodTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/finalProject/MoodTracker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TravelPlanner">
-    <configuration name="ContactReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fileHandlingExample.ContactReader" />
-      <module name="SpecializationIBM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fileHandlingExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MoodTracker">
     <configuration name="DateDiffCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dateTimeExample.DateDiffCalculator" />
       <module name="SpecializationIBM" />
@@ -71,6 +58,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fileHandlingExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoodTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="finalProject.MoodTracker" />
+      <module name="SpecializationIBM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="finalProject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoodTracker" />
         <item itemvalue="Application.TravelPlanner" />
         <item itemvalue="Application.DateDiffCalculator" />
         <item itemvalue="Application.FileSystemManager" />
         <item itemvalue="Application.PhoneBookHashMap" />
-        <item itemvalue="Application.ContactReader" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1786077882009</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Travel Planner implemented.">
+      <created>1786209195201</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1786209195201</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Major Project - Mood Tracker System.">
+      <created>1786347035374</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1786347035374</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +216,8 @@
     <MESSAGE value="Exceptions handled - ContactReader" />
     <MESSAGE value="Phonebook hashmap example completed." />
     <MESSAGE value="File System Manager program completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="File System Manager program completed." />
+    <MESSAGE value="Travel Planner implemented." />
+    <MESSAGE value="Major Project - Mood Tracker System." />
+    <option name="LAST_COMMIT_MESSAGE" value="Major Project - Mood Tracker System." />
   </component>
 </project>
