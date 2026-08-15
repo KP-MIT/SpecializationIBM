@@ -27,3 +27,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/household.ser
+/petCare.ser
